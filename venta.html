@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUMA Cars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.svg">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+        <a href="index.html">
+             <img src="img/logo.svg" alt="Logo de GUMA"class="logo_index">
+        </a>
+    </div>
+    <nav>
+                <a href="nosotros.html">NOSOTROS</a>
+                <a href="compra.html">COMPRÁ</a>
+                <a href="venta.html">VENDÉ</a>
+                <a href="feedback.html">FEEDBACK</a>
+                <a href="ayuda.html">AYUDA</a>
+    </nav>
+    <!-- ends nav -->
+        </header>
+<!-- ends header -->
+
+    <section>
+        <div class="header_animate"></div>
+    </section>
+    <br>
+
+    <main>
+        <section class="titulo__index-xl">
+            <div class="wow pulse">
+                <h1> VENDÉ TU AUTO</h1>
+            </div>
+        </section>
+        <br>
+        <br>
+        <h2 class="sub__titulo-l" >Dejanos los datos de tu auto y te lo cotizamos.</h2>
+        <br>
+        <br>
+        <section>
+            <form class="form__index" action="contactar.php">
+                <label class="form__labels" for="name">Nombre y Apellido</label>
+                <input class="form_input" type="text" id="name">
+                <label class="form__labels" for="telefono">Teléfono</label>
+                <input class="form_input" type="text" id="telefono">
+                <label class="form__labels" for="correo">Email</label>
+                <input class="form_input" type="email" id="correo">
+                <label class="form__labels" for="comentario">Acá completanos todos los detalles del auto (Marca/Modelo/Año/Etc.)</label>
+                <textarea class="form_textarea" name="" id="" cols="30" rows="10"></textarea>
+                <input class="form_input_submit" class="form_input_hover" type="submit" value="Enviar">
+        <!-- </form> ends form -->
+        </section>
+        
+
+    </main>
+
+    <section>
+        <h5 class="bloque_index"></h5>
+    </section>
+    
+    <footer class="footer">
+        <a href="https://es-la.facebook.com/" target="_blank">
+            <img src="img/facebook.svg" alt="Seguinos en facebook" class="footer__icon-s">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+            <img src="img/twitter.svg" alt="Seguinos en twitter" class="footer__icon-s">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="img/instagram.svg" alt="Seguinos en instagram" class="footer__icon-s">
+        </a>
+    </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    
+</body>
+</html>
